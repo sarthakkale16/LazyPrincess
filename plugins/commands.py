@@ -49,12 +49,13 @@ async def start(client, message):
         buttons = [[
                      InlineKeyboardButton('✘ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ✘', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('☆ ʙᴏᴛ ᴏᴡɴᴇʀ ☆', callback_data="owner_info"),
-                    InlineKeyboardButton('★ sᴜᴘᴘᴏʀᴛ ☆', url=GRP_LNK)
+                    InlineKeyboardButton('☆ ᴏᴡɴᴇʀ ☆', url="https://t.me/dev_brahmastra"),
+                    InlineKeyboardButton('★ sᴜᴘᴘᴏʀᴛ ☆', url="https://t.me/requestbox1official"),
+                    InlineKeyboardButton(✧ ʀǫsᴛᴅ ✧, url="htttps://t.me/requestbox2")
                 ],[
                     InlineKeyboardButton('✎ ʜᴇʟᴘ ✎', callback_data='help'),
                     InlineKeyboardButton('✇ ᴀʙᴏᴜᴛ ✇', callback_data='about'),
-                    InlineKeyboardButton('〈 ʀᴇǫᴜᴇsᴛ 〉', url="https://t.me/requestbox1")
+                    InlineKeyboardButton('✬ ʀᴇǫᴜᴇsᴛ ✬', url="https://t.me/requestbox1")
                 ],[
                     InlineKeyboardButton('༺ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ ༻', url="https://t.me/rb1official")
                   ]]
@@ -75,12 +76,12 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 Join Updates Channel", url=invite_link.invite_link
+                    "𖤍 ᴜᴘᴅᴀᴛᴇs 𖤍", url=invite_link.invite_link
                 )
             ],
              [
                 InlineKeyboardButton(
-                    "🦋 SUBSCRIBE YT Channel 🦋", url='https://youtube.com/@LazyDeveloperr'
+                    "✦ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ ✦", url='https://t.me/rb1official'
                 )
             ]
         ]
@@ -103,12 +104,13 @@ async def start(client, message):
         buttons = [[
                      InlineKeyboardButton('✘ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ✘', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('☆ ʙᴏᴛ ᴏᴡɴᴇʀ ☆', callback_data="owner_info"),
-                    InlineKeyboardButton('★ sᴜᴘᴘᴏʀᴛ ☆', url=GRP_LNK)
+                    InlineKeyboardButton('☆ ᴏᴡɴᴇʀ ☆', url="https://t.me/dev_brahmastra"),
+                    InlineKeyboardButton('★ sᴜᴘᴘᴏʀᴛ ☆', url="https://t.me/requestbox1official"),
+                    InlineKeyboardButton(✧ ʀǫsᴛᴅ ✧, url="htttps://t.me/requestbox2")
                 ],[
                     InlineKeyboardButton('✎ ʜᴇʟᴘ ✎', callback_data='help'),
                     InlineKeyboardButton('✇ ᴀʙᴏᴜᴛ ✇', callback_data='about'),
-                    InlineKeyboardButton('〈 ʀᴇǫᴜᴇsᴛ 〉', url="https://t.me/requestbox1")
+                    InlineKeyboardButton('✬ ʀᴇǫᴜᴇsᴛ ✬', url="https://t.me/requestbox1")
                 ],[
                     InlineKeyboardButton('༺ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ ༻', url="https://t.me/rb1official")
                   ]]
@@ -376,7 +378,7 @@ async def delete_all_index(bot, message):
 @Client.on_callback_query(filters.regex(r'^autofilter_delete'))
 async def delete_all_index_confirm(bot, message):
     await Media.collection.drop()
-    await message.answer('♥️ Thank You LazyDeveloper ♥️')
+    await message.answer('♥️ ʀᴇǫᴜᴇsᴛʙᴏx1 ♥️')
     await message.message.edit('Succesfully Deleted All The Indexed Files.')
 
 
